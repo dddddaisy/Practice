@@ -1,0 +1,69 @@
+
+.daisycalculator
+{
+	width: 500px;
+	height: 540px;
+	background-color: #E6E6FA;
+	margin: 50px auto;
+}
+
+.showbar
+{
+	width: 420px;
+	height: 60px;
+	border-width: 3px;
+	border-color: #0066FF;
+	border-style: solid;
+	background-color: #FFFFFF;
+	font-size: 24px;
+    font-family: Microsoft JhengHei;
+    font-weight: bold;
+    text-align: right;
+    text-decoration: none;
+    line-height: 200%;
+    position: relative;
+    top: 20px;
+    padding: 2px 5px;
+    margin: auto 2px;
+}
+
+.rowbar
+{
+	width: 430px;
+	margin: 2px auto;
+}
+
+.button {
+	width: 100px;
+	height: 50px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-family: Microsoft JhengHei;
+    font-weight: bold;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.daisybutton {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #0066FF;
+}
+
+.daisybutton:hover {
+    background-color: #0066FF;
+    color: white;
+}
+
+.daisypic
+{
+	position: relative;
+	top: 55px;
+}

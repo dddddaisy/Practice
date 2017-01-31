@@ -1,0 +1,185 @@
+body
+{
+	background-image: url("http://www.lanrentuku.com/savepic/img/allimg/1206/5-120601095939.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.container
+{
+	width: 75%;
+	height: 100%;
+	margin: 30px auto;
+	padding: 5px 10px;
+	background-color: rgba(189,132,104,0.8);
+	border-radius: 3px;
+	box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);
+}
+
+.header
+{
+	margin: 25px auto;
+	width: 90%;
+}
+
+.HeaderImg
+{
+	max-width: 100%;
+	height: auto;
+}
+
+.content
+{
+	width: 90%;
+	height: auto;
+	margin: 0px auto;
+    clear: both;
+}
+
+.title
+{
+	width: 75%;
+	height: auto;
+	padding: 5px 10px;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.history
+{
+	float: right;
+	width: 25%;
+	height: auto;
+	padding: 5px 10px;
+	position: relative;
+	left: 20px;
+	border-left: 1px solid rgba(110,13,37,0.3);
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, p
+{
+	vertical-align: center;
+	font-family: Microsoft JhengHei;
+}
+
+table
+{
+	width: 75%;
+	border-collapse: collapse;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+th, td
+{
+	border-collapse: collapse;
+	border-bottom: 1px solid black;
+	word-wrap: break-word;
+	margin: 3px;
+	padding: 3px;
+}
+
+th
+{
+	background-color: rgba(110,13,37,0.3);
+	vertical-align: center;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+	font-weight: bold;
+	font-size: 120%;
+	margin: 3px;
+}
+
+a:link
+{
+	color: #6E0D25;
+	text-decoration: none;
+}
+
+a:visited
+{
+	color: #A7988B;
+	text-decoration: none;
+}
+
+.trHover:hover
+{
+	background-color: rgba(241,235,228,0.3);
+}
+
+.TableIndex
+{
+	width: 2%;
+	vertical-align: center;
+	text-align: center;
+	font-size: 16px;
+	font-family: Microsoft JhengHei;
+}
+
+.BookName
+{
+	width: 60%;
+	vertical-align: center;
+	text-align: left;
+	font-family: Microsoft JhengHei;
+}
+
+.BookWriter
+{
+	width: 30%;
+	vertical-align: center;
+	text-align: left;
+	font-family: Microsoft JhengHei;
+}
+
+.BookInformation
+{
+	width: 8%;
+	vertical-align: center;
+	text-align: center;
+	font-family: Microsoft JhengHei;
+}
+
+.pager
+{
+	width: 75%;
+	border-collapse: collapse;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.justify
+{
+	text-align: justify;
+}
+
+.justify:after
+{
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+
+.pointer
+{
+	display: inline;
+	font-family: Microsoft JhengHei;
+}
+
+
+.footer
+{
+	width: 90%;
+	height: auto;
+	margin: 50px auto 10px auto;
+	clear: both;
+	text-align: center;
+	vertical-align: center;
+	font-family: Microsoft JhengHei;
+}
